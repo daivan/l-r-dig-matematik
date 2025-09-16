@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		2569C74A2E796ECE009BC205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2569C7342E796EBE009BC205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2569C73B2E796EBE009BC205;
+			remoteInfo = "Lär dig matematik";
+		};
+		2569C7542E796ECE009BC205 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2569C7342E796EBE009BC205 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2569C73B2E796EBE009BC205;
+			remoteInfo = "Lär dig matematik";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2569C73C2E796EBE009BC205 /* Lär dig matematik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lär dig matematik.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2569C7492E796ECE009BC205 /* Lär dig matematikTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lär dig matematikTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2569C7532E796ECE009BC205 /* Lär dig matematikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lär dig matematikUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2569C73E2E796EBE009BC205 /* Lär dig matematik */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lär dig matematik";
+			sourceTree = "<group>";
+		};
+		2569C74C2E796ECE009BC205 /* Lär dig matematikTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lär dig matematikTests";
+			sourceTree = "<group>";
+		};
+		2569C7562E796ECE009BC205 /* Lär dig matematikUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Lär dig matematikUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2569C7392E796EBE009BC205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2569C7462E796ECE009BC205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2569C7502E796ECE009BC205 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2569C7332E796EBE009BC205 = {
+			isa = PBXGroup;
+			children = (
+				2569C73E2E796EBE009BC205 /* Lär dig matematik */,
+				2569C74C2E796ECE009BC205 /* Lär dig matematikTests */,
+				2569C7562E796ECE009BC205 /* Lär dig matematikUITests */,
+				2569C73D2E796EBE009BC205 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2569C73D2E796EBE009BC205 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2569C73C2E796EBE009BC205 /* Lär dig matematik.app */,
+				2569C7492E796ECE009BC205 /* Lär dig matematikTests.xctest */,
+				2569C7532E796ECE009BC205 /* Lär dig matematikUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2569C73B2E796EBE009BC205 /* Lär dig matematik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2569C75D2E796ECE009BC205 /* Build configuration list for PBXNativeTarget "Lär dig matematik" */;
+			buildPhases = (
+				2569C7382E796EBE009BC205 /* Sources */,
+				2569C7392E796EBE009BC205 /* Frameworks */,
+				2569C73A2E796EBE009BC205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				2569C73E2E796EBE009BC205 /* Lär dig matematik */,
+			);
+			name = "Lär dig matematik";
+			packageProductDependencies = (
+			);
+			productName = "Lär dig matematik";
+			productReference = 2569C73C2E796EBE009BC205 /* Lär dig matematik.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2569C7482E796ECE009BC205 /* Lär dig matematikTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2569C7602E796ECE009BC205 /* Build configuration list for PBXNativeTarget "Lär dig matematikTests" */;
+			buildPhases = (
+				2569C7452E796ECE009BC205 /* Sources */,
+				2569C7462E796ECE009BC205 /* Frameworks */,
+				2569C7472E796ECE009BC205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2569C74B2E796ECE009BC205 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2569C74C2E796ECE009BC205 /* Lär dig matematikTests */,
+			);
+			name = "Lär dig matematikTests";
+			packageProductDependencies = (
+			);
+			productName = "Lär dig matematikTests";
+			productReference = 2569C7492E796ECE009BC205 /* Lär dig matematikTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2569C7522E796ECE009BC205 /* Lär dig matematikUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2569C7632E796ECE009BC205 /* Build configuration list for PBXNativeTarget "Lär dig matematikUITests" */;
+			buildPhases = (
+				2569C74F2E796ECE009BC205 /* Sources */,
+				2569C7502E796ECE009BC205 /* Frameworks */,
+				2569C7512E796ECE009BC205 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2569C7552E796ECE009BC205 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				2569C7562E796ECE009BC205 /* Lär dig matematikUITests */,
+			);
+			name = "Lär dig matematikUITests";
+			packageProductDependencies = (
+			);
+			productName = "Lär dig matematikUITests";
+			productReference = 2569C7532E796ECE009BC205 /* Lär dig matematikUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2569C7342E796EBE009BC205 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					2569C73B2E796EBE009BC205 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					2569C7482E796ECE009BC205 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2569C73B2E796EBE009BC205;
+					};
+					2569C7522E796ECE009BC205 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 2569C73B2E796EBE009BC205;
+					};
+				};
+			};
+			buildConfigurationList = 2569C7372E796EBE009BC205 /* Build configuration list for PBXProject "Lär dig matematik" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2569C7332E796EBE009BC205;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 2569C73D2E796EBE009BC205 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2569C73B2E796EBE009BC205 /* Lär dig matematik */,
+				2569C7482E796ECE009BC205 /* Lär dig matematikTests */,
+				2569C7522E796ECE009BC205 /* Lär dig matematikUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2569C73A2E796EBE009BC205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2569C7472E796ECE009BC205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2569C7512E796ECE009BC205 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2569C7382E796EBE009BC205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2569C7452E796ECE009BC205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2569C74F2E796ECE009BC205 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2569C74B2E796ECE009BC205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2569C73B2E796EBE009BC205 /* Lär dig matematik */;
+			targetProxy = 2569C74A2E796ECE009BC205 /* PBXContainerItemProxy */;
+		};
+		2569C7552E796ECE009BC205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2569C73B2E796EBE009BC205 /* Lär dig matematik */;
+			targetProxy = 2569C7542E796ECE009BC205 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2569C75B2E796ECE009BC205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2569C75C2E796ECE009BC205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2569C75E2E796ECE009BC205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2569C75F2E796ECE009BC205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematik";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2569C7612E796ECE009BC205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lär dig matematik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lär dig matematik";
+			};
+			name = Debug;
+		};
+		2569C7622E796ECE009BC205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematikTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lär dig matematik.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Lär dig matematik";
+			};
+			name = Release;
+		};
+		2569C7642E796ECE009BC205 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lär dig matematik";
+			};
+			name = Debug;
+		};
+		2569C7652E796ECE009BC205 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = A5J7JFVA3W;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematikUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lär dig matematik";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2569C7372E796EBE009BC205 /* Build configuration list for PBXProject "Lär dig matematik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2569C75B2E796ECE009BC205 /* Debug */,
+				2569C75C2E796ECE009BC205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2569C75D2E796ECE009BC205 /* Build configuration list for PBXNativeTarget "Lär dig matematik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2569C75E2E796ECE009BC205 /* Debug */,
+				2569C75F2E796ECE009BC205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2569C7602E796ECE009BC205 /* Build configuration list for PBXNativeTarget "Lär dig matematikTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2569C7612E796ECE009BC205 /* Debug */,
+				2569C7622E796ECE009BC205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2569C7632E796ECE009BC205 /* Build configuration list for PBXNativeTarget "Lär dig matematikUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2569C7642E796ECE009BC205 /* Debug */,
+				2569C7652E796ECE009BC205 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2569C7342E796EBE009BC205 /* Project object */;
+}
