@@ -1,23 +1,6 @@
 import SwiftUI
 
-struct Question {
-    let text: String
-    let answer: Int
-}
-
-let level1Questions: [Question] = [
-    Question(text: "1 + 1", answer: 2),
-    Question(text: "2 + 3", answer: 5),
-    Question(text: "5 - 2", answer: 3)
-]
-
-let level2Questions: [Question] = [
-    Question(text: "10 / 2", answer: 5),
-    Question(text: "3 x 4", answer: 12),
-    Question(text: "15 - 7", answer: 8)
-]
-
-struct ContentView: View {
+struct QuestionView: View {
     @State private var currentLevel = 1
     @State private var currentQuestionIndex = 0
     @State private var userAnswer = ""
@@ -81,7 +64,6 @@ struct ContentView: View {
         if currentQuestionIndex < questions.count - 1 {
             currentQuestionIndex += 1
         } else {
-            // Gå upp en nivå om det finns fler
             currentLevel += 1
             currentQuestionIndex = 0
         }
