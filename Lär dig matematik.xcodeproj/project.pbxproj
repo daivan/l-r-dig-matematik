@@ -35,16 +35,6 @@
 			path = "Lär dig matematik";
 			sourceTree = "<group>";
 		};
-		2569C74C2E796ECE009BC205 /* Lär dig matematikTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Lär dig matematikTests";
-			sourceTree = "<group>";
-		};
-		2569C7562E796ECE009BC205 /* Lär dig matematikUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Lär dig matematikUITests";
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				2569C73E2E796EBE009BC205 /* Lär dig matematik */,
-				2569C74C2E796ECE009BC205 /* Lär dig matematikTests */,
-				2569C7562E796ECE009BC205 /* Lär dig matematikUITests */,
 				2569C73D2E796EBE009BC205 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				2569C74B2E796ECE009BC205 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				2569C74C2E796ECE009BC205 /* Lär dig matematikTests */,
-			);
 			name = "Lär dig matematikTests";
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				2569C7552E796ECE009BC205 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				2569C7562E796ECE009BC205 /* Lär dig matematikUITests */,
 			);
 			name = "Lär dig matematikUITests";
 			packageProductDependencies = (
@@ -400,6 +382,7 @@
 				DEVELOPMENT_TEAM = A5J7JFVA3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -410,7 +393,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematik";
+				PRODUCT_BUNDLE_IDENTIFIER = "lar-dig-matematik";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -428,6 +411,7 @@
 				DEVELOPMENT_TEAM = A5J7JFVA3W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -438,7 +422,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "test.La-r-dig-matematik";
+				PRODUCT_BUNDLE_IDENTIFIER = "lar-dig-matematik";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
