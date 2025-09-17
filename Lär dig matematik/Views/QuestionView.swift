@@ -1,25 +1,31 @@
 import SwiftUI
-
 struct QuestionView: View {
     @StateObject private var viewModel = QuestionViewModel()
     
     var body: some View {
         VStack(spacing: 20) {
-            Text("Nivå \(viewModel.currentLevel + 1)")
+            Text("Nivå \(viewModel.level)")
                 .font(.headline)
             
             Text(viewModel.currentQuestion.text)
                 .font(.largeTitle)
-                .multilineTextAlignment(.center)
                 .padding()
             
             Text(viewModel.userAnswer)
                 .font(.title)
                 .padding()
             
-            KeypadView(keys: viewModel.keysForType()) { key in
-                viewModel.handleKeyTap(key)
+            KeypadView(keys: viewModel.keysForType) { key in
+                viewModel.handleKeyPress(key)
             }
+            
+            Button("Svara") {
+                viewModel.submitAnswer()
+            }
+            .padding()
+            .background(Color.blue)
+            .foregroundColor(.white)
+            .cornerRadius(10)
             
             Text(viewModel.feedback)
                 .font(.headline)
