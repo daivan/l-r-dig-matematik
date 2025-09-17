@@ -1,16 +1,17 @@
 import SwiftUI
 
 struct QuestionView: View {
-    @StateObject private var viewModel: QuestionViewModel
-    
-    init(question: Question) {
-        _viewModel = StateObject(wrappedValue: QuestionViewModel(question: question))
-    }
+    @StateObject private var viewModel = QuestionViewModel()
     
     var body: some View {
         VStack(spacing: 20) {
-            Text(viewModel.question.text)
+            Text("Nivå \(viewModel.currentLevel + 1)")
+                .font(.headline)
+            
+            Text(viewModel.currentQuestion.text)
                 .font(.largeTitle)
+                .multilineTextAlignment(.center)
+                .padding()
             
             Text(viewModel.userAnswer)
                 .font(.title)
@@ -22,6 +23,7 @@ struct QuestionView: View {
             
             Text(viewModel.feedback)
                 .font(.headline)
+                .foregroundColor(viewModel.feedback.contains("Rätt") ? .green : .red)
         }
         .padding()
     }

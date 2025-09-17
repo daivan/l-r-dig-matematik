@@ -9,7 +9,7 @@ struct ContentView: View {
                     .bold()
                 
                 NavigationLink("Börja träna") {
-                    QuestionView(question: level1Questions[0]) // 👈 skickar in första frågan
+                    QuestionView()
                 }
                 .padding()
                 .background(Color.blue)

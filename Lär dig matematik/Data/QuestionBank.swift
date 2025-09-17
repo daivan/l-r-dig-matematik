@@ -4,12 +4,19 @@ let level1Questions: [Question] = [
     Question(text: "4 / 2", answer: "2", type: .numeric)
 ]
 
-let fractionQuestions: [Question] = [
+let level2Questions: [Question] = [
+    Question(text: "10 - 5", answer: "5", type: .numeric),
+    Question(text: "6 + 7", answer: "13", type: .numeric),
+    Question(text: "12 / 3", answer: "4", type: .numeric)
+]
+
+let level3Questions: [Question] = [
     Question(text: "Vilket är hälften av 1?", answer: "½", type: .fraction),
     Question(text: "Vilket är tre fjärdedelar?", answer: "¾", type: .fraction)
 ]
 
-let algebraQuestions: [Question] = [
-    Question(text: "x + 2 = 5, vad är x?", answer: "3", type: .algebra),
-    Question(text: "y - 4 = 0, vad är y?", answer: "4", type: .algebra)
+let allLevels: [[Question]] = [
+    level1Questions,
+    level2Questions,
+    level3Questions
 ]
