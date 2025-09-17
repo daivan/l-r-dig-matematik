@@ -9,13 +9,14 @@ struct ContentView: View {
                     .bold()
                 
                 NavigationLink("Börja träna") {
-                    QuestionView()
+                    QuestionView(question: level1Questions[0]) // 👈 skickar in första frågan
                 }
                 .padding()
                 .background(Color.blue)
                 .foregroundColor(.white)
                 .cornerRadius(10)
             }
+            .navigationTitle("Start")
         }
     }
 }

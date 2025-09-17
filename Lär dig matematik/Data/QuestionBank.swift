@@ -1,11 +1,15 @@
 let level1Questions: [Question] = [
-    Question(text: "1 + 1", answer: 2),
-    Question(text: "2 + 3", answer: 5),
-    Question(text: "5 - 2", answer: 3)
+    Question(text: "1 + 1", answer: "2", type: .numeric),
+    Question(text: "3 - 2", answer: "1", type: .numeric),
+    Question(text: "4 / 2", answer: "2", type: .numeric)
 ]
 
-let level2Questions: [Question] = [
-    Question(text: "10 / 2", answer: 5),
-    Question(text: "3 x 4", answer: 12),
-    Question(text: "15 - 7", answer: 8)
+let fractionQuestions: [Question] = [
+    Question(text: "Vilket är hälften av 1?", answer: "½", type: .fraction),
+    Question(text: "Vilket är tre fjärdedelar?", answer: "¾", type: .fraction)
+]
+
+let algebraQuestions: [Question] = [
+    Question(text: "x + 2 = 5, vad är x?", answer: "3", type: .algebra),
+    Question(text: "y - 4 = 0, vad är y?", answer: "4", type: .algebra)
 ]
